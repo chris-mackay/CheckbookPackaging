@@ -2,13 +2,13 @@
 AppId={{8B5B8A60-A06B-4240-9CAD-1464B7A6B4E9}
 AppName=Checkbook
 AppCopyright=Copyright © 2018 Christopher Mackay
-AppVersion=1.6.3
-VersionInfoVersion=1.6.3
+AppVersion=1.6.4
+VersionInfoVersion=1.6.4
 AppVerName=Checkbook
 AppPublisher=Christopher Mackay
 AppPublisherURL=https://cmackay732.github.io/CheckbookWebsite/
 AppSupportURL=https://cmackay732.github.io/CheckbookWebsite/checkbook_help/checkbook_help.html
-AppUpdatesURL=github.com/cmackay732/Checkbook/releases/tag/v1.6.3
+AppUpdatesURL=github.com/cmackay732/Checkbook/releases/tag/v1.6.4
 DefaultDirName={pf}\Christopher Mackay\Checkbook
 DefaultGroupName=Checkbook
 OutputDir=C:\Programming\Checkbook\CheckbookPackaging\Checkbook\Inno_Setup
