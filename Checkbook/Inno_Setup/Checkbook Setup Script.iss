@@ -1,23 +1,23 @@
 [Setup]
 AppId={{8B5B8A60-A06B-4240-9CAD-1464B7A6B4E9}
 AppName=Checkbook
-AppCopyright=Copyright © 2018 Christopher Mackay
-AppVersion=1.6.4
-VersionInfoVersion=1.6.4
+AppCopyright=Copyright © 2016-2019 Christopher Mackay
+AppVersion=1.6.5
+VersionInfoVersion=1.6.5
 AppVerName=Checkbook
 AppPublisher=Christopher Mackay
 AppPublisherURL=https://cmackay732.github.io/CheckbookWebsite/
 AppSupportURL=https://cmackay732.github.io/CheckbookWebsite/checkbook_help/checkbook_help.html
-AppUpdatesURL=github.com/cmackay732/Checkbook/releases/tag/v1.6.4
+AppUpdatesURL=github.com/cmackay732/Checkbook/releases/tag/v1.6.5
 DefaultDirName={pf}\Christopher Mackay\Checkbook
 DefaultGroupName=Checkbook
-OutputDir=C:\Programming\Checkbook\CheckbookPackaging\Checkbook\Inno_Setup
+OutputDir=C:\Programming\CheckbookPackaging\Checkbook\Inno_Setup
 OutputBaseFilename=Checkbook Setup
 Compression=lzma
 SolidCompression=yes
 UninstallDisplayIcon={app}\Checkbook.exe
 DisableDirPage=yes
-LicenseFile=C:\Programming\Checkbook\CheckbookPackaging\Checkbook\Packaging\LICENSE.txt
+LicenseFile=C:\Programming\CheckbookPackaging\Checkbook\Packaging\LICENSE.txt
 PrivilegesRequired=admin
 
 [Registry]
@@ -44,14 +44,14 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}";
 
 [Files]
-Source: "C:\Programming\Checkbook\CheckbookPackaging\Checkbook\Packaging\Checkbook.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Programming\Checkbook\CheckbookPackaging\Checkbook\Packaging\Icons\Packaging Icons\Checkbook Icon.ico"; DestDir: "{app}\Icons";
-Source: "C:\Programming\Checkbook\CheckbookPackaging\Checkbook\Packaging\Icons\Packaging Icons\Scenario Icon.ico"; DestDir: "{app}\Icons";
-Source: "C:\Programming\Checkbook\CheckbookPackaging\Checkbook\Packaging\Icons\Packaging Icons\Settings Icon.ico"; DestDir: "{app}\Icons";
-Source: "C:\Programming\Checkbook\CheckbookPackaging\Checkbook\Packaging\Icons\Packaging Icons\Budgets Icon.ico"; DestDir: "{app}\Icons";
-Source: "C:\Programming\Checkbook\CheckbookPackaging\Checkbook\Packaging\CheckbookMessage.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Programming\Checkbook\CheckbookPackaging\Checkbook\Packaging\LICENSE.txt"; DestDir: "{app}";
-Source: "C:\Programming\Checkbook\CheckbookPackaging\Checkbook\Packaging\Example Ledger.cbk"; DestDir: "{userdocs}\My Checkbook Ledgers\Example Ledger";
+Source: "C:\Programming\CheckbookPackaging\Checkbook\Packaging\Checkbook.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Programming\CheckbookPackaging\Checkbook\Packaging\Icons\Packaging Icons\Checkbook Icon.ico"; DestDir: "{app}\Icons";
+Source: "C:\Programming\CheckbookPackaging\Checkbook\Packaging\Icons\Packaging Icons\Scenario Icon.ico"; DestDir: "{app}\Icons";
+Source: "C:\Programming\CheckbookPackaging\Checkbook\Packaging\Icons\Packaging Icons\Settings Icon.ico"; DestDir: "{app}\Icons";
+Source: "C:\Programming\CheckbookPackaging\Checkbook\Packaging\Icons\Packaging Icons\Budgets Icon.ico"; DestDir: "{app}\Icons";
+Source: "C:\Programming\CheckbookPackaging\Checkbook\Packaging\CheckbookMessage.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Programming\CheckbookPackaging\Checkbook\Packaging\LICENSE.txt"; DestDir: "{app}";
+Source: "C:\Programming\CheckbookPackaging\Checkbook\Packaging\Example Ledger.cbk"; DestDir: "{userdocs}\My Checkbook Ledgers\Example Ledger";
 
 [Icons]
 Name: "{group}\Checkbook"; Filename: "{app}\Checkbook.exe"
