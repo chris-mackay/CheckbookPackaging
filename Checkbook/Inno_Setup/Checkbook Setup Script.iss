@@ -1,9 +1,9 @@
 [Setup]
 AppId={{8B5B8A60-A06B-4240-9CAD-1464B7A6B4E9}
 AppName=Checkbook
-AppCopyright=Copyright © 2016-2019 Christopher Mackay
-AppVersion=1.6.6
-VersionInfoVersion=1.6.6
+AppCopyright=Copyright © 2016-2021 Christopher Mackay
+AppVersion=1.6.7
+VersionInfoVersion=1.6.7
 AppVerName=Checkbook
 AppPublisher=Christopher Mackay
 AppPublisherURL=https://chris-mackay.github.io/CheckbookWebsite/
